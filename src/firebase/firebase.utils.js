@@ -1,10 +1,11 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore';
-import 'firebrase/auth';
+import 'firebase/auth';
 
 const config = {
   apiKey: "AIzaSyAlS1awqggxmK48wGfC2FXbDURpMnRckk4",
   authDomain: "crwn-db-f6177.firebaseapp.com",
+  databaseURL: "https://crwn-db-f6177.firebaseio.com",
   projectId: "crwn-db-f6177",
   storageBucket: "crwn-db-f6177.appspot.com",
   messagingSenderId: "925581006550",
